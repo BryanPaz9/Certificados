@@ -1,0 +1,15 @@
+body{
+    padding-bottom: 50px;
+}
+.main-container{
+    margin-top: 20px;
+    margin-left: 29%;
+}
+footer{
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+}
