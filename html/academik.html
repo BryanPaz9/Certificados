@@ -6,7 +6,7 @@
         <style>
             body,
             html {
-                height: 70%;
+                height: 58%;
                 width: 100%
             }
         
@@ -58,11 +58,11 @@
 
         <div class="parallax1">
             <div style=" t-size:36px">
-                <div style="width: 60%;   display: block;
+                <div style="width: 100%;   display: block;
                         margin-left: auto;
                         margin-right: auto;
-                        margin-top: 1%;">
-                    <div class="jumbotron heartBeat">
+                        margin-top: 0%;">
+                    <div class="jumbotron parallax1">
                         <h1 class="display-4">Certificados de Academik</h1>
                         <p class="lead">En esta sección encontrarás información para el uso correcto del software y la generación exitosa de sus Certificados.</p>
                         <hr class="my-4">
@@ -82,123 +82,117 @@
             </div>
         </div>
         
-        <div style="t-size:36px;">
-            <div style="width: 60%; display: block;
+        <div class="parallax1" style="t-size:36px;">
+            <div style="width: 100%; display: block;
                                             margin-left: auto;
                                             margin-right: auto;
-                                            margin-top: 2%;">
-                <div class="jumbotron" style="opacity: inherit;">
-                    <h1 class="display-4">Documentación</h1>
-                    <p class="lead">Esta es una simple guía de como utilizar el software de Certificados de Nabenik.</p>
+                                            margin-top: 0%;">
+                <div class="jumbotron parallax1" style="opacity: inherit;">
+                    <h1 class="display-4">Información</h1>
                     <hr class="my-4">
                     <p>Utilizado para generar Certificados de Oracle, Academik y Nabenik</p>
                     <p>
-                        <a class="btn btn-warning" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false"
-                            aria-controls="multiCollapseExample1">Campos Obligatorios</a>
-                        <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#multiCollapseExample2"
-                            aria-expanded="false" aria-controls="multiCollapseExample2">Agregando registros</button>
+                        <button class="btn btn-warning" type="button" data-toggle="collapse" data-target=".multi-collapser"
+                            aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Campos Obligatorios</button>
+                    </p>
+                    <div class="row">
+                        <div class="col">
+                            <div class="collapse multi-collapser" id="multiCollapseExample1">
+                                <div class="card w-75" style="width: 18rem;">
+                                    <img src="../assets/img/academik/campos obligatorios.PNG" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Controles Habilitados</h5>
+                                        <p class="card-text">Deberá llenar todos los campos, en este caso el sistema le habilita los controles
+                                            necesarios.</p>
+                                        <a href="#" class="btn btn-primary">Ver Imagen</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="collapse multi-collapser" id="multiCollapseExample1">
+                                <div class="card w-75" style="width: 18rem;">
+                                    <img src="../assets/img/academik/campos vacios.PNG" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Controles Habilitados</h5>
+                                        <p class="card-text">En caso que hayan campos vacíos, el sistema le avisará a la hora de querer agregar el
+                                            registro.</p>
+                                        <a href="#" class="btn btn-primary">Ver Imagen</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <p>
                         <button class="btn btn-warning" type="button" data-toggle="collapse" data-target=".multi-collapse"
-                            aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Resultado Final</button>
+                            aria-expanded="false" aria-controls="multiCollapseExample3 multiCollapseExample4">Agregando Registros</button>
                     </p>
                     <div class="row">
                         <div class="col">
                             <div class="collapse multi-collapse" id="multiCollapseExample1">
-                                <div class="card card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil
-                                    anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                <div class="card w-75" style="width: 18rem;">
+                                    <img src="../assets/img/academik/registro.PNG" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Controles Habilitados</h5>
+                                        <p class="card-text">Deberá llenar todos los campos, en este caso el sistema le habilita los controles
+                                            necesarios.</p>
+                                        <a href="#" class="btn btn-primary">Ver Imagen</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col">
-                            <div class="collapse multi-collapse" id="multiCollapseExample2">
-                                <div class="card card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil
-                                    anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                            <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                <div class="card w-75" style="width: 18rem;">
+                                    <img src="../assets/img/academik/generatedAcademik.PNG" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Controles Habilitados</h5>
+                                        <p class="card-text">En caso que hayan campos vacíos, el sistema le avisará a la hora de querer agregar
+                                            el
+                                            registro.</p>
+                                        <a href="#" class="btn btn-primary">Ver Imagen</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <hr>
                     <p>
-                        <a class="btn btn-warning" data-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false"
-                            aria-controls="multiCollapseExample3">Campos Obligatorios</a>
-                        <button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#multiCollapseExample4"
-                            aria-expanded="false" aria-controls="multiCollapseExample4">Agregando registros</button>
-                        <button class="btn btn-warning" type="button" data-toggle="collapse" data-target=".multi-collapse"
-                            aria-expanded="false" aria-controls="multiCollapseExample3 multiCollapseExample4">Resultado Final</button>
+                        <button type="button" class="btn btn-warning" data-toggle="modal" data-target=".bd-example-modal-lg">Resultado Final</button>
                     </p>
-                    <div class="row">
-                        <div class="col">
-                            <div class="collapse multi-collapse" id="multiCollapseExample3">
-                                <div class="card card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil
-                                    anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="collapse multi-collapse" id="multiCollapseExample4">
-                                <div class="card card-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil
-                                    anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                                </div>
-                            </div>
-                        </div>
+                </div>
+            </div>
+            <div>
+                <!-- Footer -->
+                <footer class="page-footer font-small special-color-dark pt-4">
+            
+                    <!-- Footer Elements -->
+                    <div class="container">
+            
                     </div>
+                    <!-- Footer Elements -->
+            
+                    <!-- Copyright -->
+                    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+                        <a href="https://www.nabenik.com"> Nabenik.com</a>
+                    </div>
+                    <!-- Copyright -->
+            
+                </footer>
+                <!-- Footer -->
+            </div>
 
+            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <img src="../assets/img/academik/certificate.PNG" alt="">
+                    </div>
                 </div>
             </div>
         </div>
-        
-        <div class="parallax1"></div>
-        <div>
-                <!-- Footer -->
-    <footer class="page-footer font-small special-color-dark pt-4">
-    
-            <!-- Footer Elements -->
-            <div class="container">
-          
-              <!-- Social buttons -->
-              <ul class="list-unstyled list-inline text-center">
-                <li class="list-inline-item">
-                  <a class="btn-floating btn-fb mx-1">
-                    <i class="fab fa-facebook-f"> </i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a class="btn-floating btn-tw mx-1">
-                    <i class="fab fa-twitter"> </i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a class="btn-floating btn-gplus mx-1">
-                    <i class="fab fa-google-plus-g"> </i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a class="btn-floating btn-li mx-1">
-                    <i class="fab fa-linkedin-in"> </i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a class="btn-floating btn-dribbble mx-1">
-                    <i class="fab fa-dribbble"> </i>
-                  </a>
-                </li>
-              </ul>
-              <!-- Social buttons -->
-          
-            </div>
-            <!-- Footer Elements -->
-          
-            <!-- Copyright -->
-            <div class="footer-copyright text-center py-3">© 2018 Copyright:
-              <a href="https://www.nabenik.com"> Nabenik.com</a>
-            </div>
-            <!-- Copyright -->
-          
-          </footer>
-          <!-- Footer -->
-        </div>
+
         <script src="../js/app.js"></script>
         <script src="../js/jquery-3.3.1.min.js"></script>
         <script src="../js/bootstrap.min.js"></script>
