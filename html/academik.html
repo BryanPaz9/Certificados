@@ -84,9 +84,9 @@
         
         <div class="parallax1" style="t-size:36px;">
             <div style="width: 100%; display: block;
-                                            margin-left: auto;
-                                            margin-right: auto;
-                                            margin-top: 0%;">
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 0%;">
                 <div class="jumbotron parallax1" style="opacity: inherit;">
                     <h1 class="display-4">Información</h1>
                     <hr class="my-4">
@@ -104,7 +104,7 @@
                                         <h5 class="card-title">Controles Habilitados</h5>
                                         <p class="card-text">Deberá llenar todos los campos, en este caso el sistema le habilita los controles
                                             necesarios.</p>
-                                        <a href="#" class="btn btn-primary">Ver Imagen</a>
+                                        <a href="#" class="btn btn-secondary" id="1" onclick="modalView(1)" data-toggle="modal" data-target=".bd-modal-lg">Ver Imagen</a>
                                     </div>
                                 </div>
                             </div>
@@ -117,7 +117,7 @@
                                         <h5 class="card-title">Controles Habilitados</h5>
                                         <p class="card-text">En caso que hayan campos vacíos, el sistema le avisará a la hora de querer agregar el
                                             registro.</p>
-                                        <a href="#" class="btn btn-primary">Ver Imagen</a>
+                                        <a href="#" class="btn btn-secondary" id="2" onclick="modalView(2)" data-toggle="modal" data-target=".bd-modal-lg">Ver Imagen</a>
                                     </div>
                                 </div>
                             </div>
@@ -137,7 +137,7 @@
                                         <h5 class="card-title">Controles Habilitados</h5>
                                         <p class="card-text">Deberá llenar todos los campos, en este caso el sistema le habilita los controles
                                             necesarios.</p>
-                                        <a href="#" class="btn btn-primary">Ver Imagen</a>
+                                        <a href="#" class="btn btn-secondary"id="3" onclick="modalView('3')" data-toggle="modal" data-target=".bd-modal-lg">Ver Imagen</a>
                                     </div>
                                 </div>
                             </div>
@@ -151,7 +151,7 @@
                                         <p class="card-text">En caso que hayan campos vacíos, el sistema le avisará a la hora de querer agregar
                                             el
                                             registro.</p>
-                                        <a href="#" class="btn btn-primary">Ver Imagen</a>
+                                        <a href="#" class="btn btn-secondary" id="4" onclick="modalView('4')" data-toggle="modal" data-target=".bd-modal-lg">Ver Imagen</a>
                                     </div>
                                 </div>
                             </div>
@@ -159,13 +159,13 @@
                     </div>
                     <hr>
                     <p>
-                        <button type="button" class="btn btn-warning" data-toggle="modal" data-target=".bd-example-modal-lg">Resultado Final</button>
+                        <button type="button" class="btn btn-warning" data-toggle="modal" data-target=".bd-modal-lg" id="5" onclick="modalView(5)">Resultado Final</button>
                     </p>
                 </div>
             </div>
             <div>
                 <!-- Footer -->
-                <footer class="page-footer font-small special-color-dark pt-4">
+                <footer class="page-footer parallax1">
             
                     <!-- Footer Elements -->
                     <div class="container">
@@ -183,11 +183,11 @@
                 <!-- Footer -->
             </div>
 
-            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+            <div class="modal fade bd-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
                 aria-hidden="true">
                 <div class="modal-dialog modal-xl">
                     <div class="modal-content">
-                        <img src="../assets/img/academik/certificate.PNG" alt="">
+                        <img  id="img1" alt="">
                     </div>
                 </div>
             </div>
