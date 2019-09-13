@@ -2,6 +2,7 @@
 var id;
 var img = document.getElementById('img1');
 var img2 = document.getElementById('img2');
+var img3 = document.getElementById('img3');
 
 function modalView(id){
     if (id == '1'){
@@ -47,14 +48,18 @@ function modalViewOracle(id){
 
 function modalViewNabenik(id){
     if (id == '1'){
-        img.src = '../assets/img/nabenik/.PNG';
+        console.log('1');
+        img3.src= '../assets/img/nabenik/controls.PNG';
     }else if(id == '2'){
-        img.src = '../assets/img/nabenik/.PNG';
-    }else if(id == '3'){
-        img.src = '../assets/img/nabenik/.PNG';
+        console.log('2');
+        img3.src = '../assets/img/nabenik/obligatorio.PNG';
+    }else if(id =='3'){
+        console.log('3');
+        img3.src = '../assets/img/nabenik/registro.PNG'
     }else if(id == '4'){
-        img.src = '../assets/img/nabenik/.PNG';
+        console.log('4');
+        img3.src = '../assets/img/nabenik/generated.PNG'
     }else if(id == '5'){
-        img.src = '../assets/img/nabenik/certificate.PNG';
+        img3.src = '../assets/img/nabenik/certificate.PNG';
     }
 }
