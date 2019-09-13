@@ -92,12 +92,12 @@
                 margin-left: auto;
                 margin-right: auto;
                 margin-top: 0%;">
+                <br><br>
                 <div class="jumbotron parallax1" style="opacity: inherit;">
                     <h1 class="display-5">Información</h1>
-                    <hr class="my-4">
-                    <p>Click a los botones para desplegar la información</p>
+                    <p>Click a los botones para desplegar la información</p><hr class="my-4">
                     <p>
-                        <button class="btn btn-danger" style="background-color: red" type="button" data-toggle="collapse" data-target=".multi-collapser"
+                        <button class="btn btn-dark" type="button" data-toggle="collapse" data-target=".multi-collapser"
                             aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Campos Obligatorios</button>
                     </p>
                     <div class="row">
@@ -107,9 +107,8 @@
                                     <img src="../assets/img/oracle/controles.PNG" class="card-img-top" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title">Controles Habilitados</h5>
-                                        <p class="card-text">Deberá llenar todos los campos, en este caso el sistema le habilita los controles
-                                            necesarios.</p>
-                                        <a href="#" class="btn btn-dark" id="1" onclick="modalViewOracle(1)" data-toggle="modal" data-target=".bd-example-modal-lg">Ver Imagen</a>
+                                        <p class="card-text">Deberá llenar todos los campos, en este formulario el director está bloqueado por defecto pero puede modificarlo habilitando la opción en el CheckBox.</p>
+                                        <a href="#" class="btn btn-dark" style="background-color: red" id="1" onclick="modalViewOracle(1)" data-toggle="modal" data-target=".bd-example-modal-lg">Ver Imagen</a>
                                     </div>
                                 </div>
                             </div>
@@ -119,10 +118,10 @@
                                 <div class="card w-75" style="width: 18rem;">
                                     <img src="../assets/img/oracle/campos.PNG" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <h5 class="card-title">Controles Habilitados</h5>
+                                        <h5 class="card-title">Campos vacíos</h5>
                                         <p class="card-text">En caso que hayan campos vacíos, el sistema le avisará a la hora de querer agregar el
-                                            registro.</p>
-                                        <a href="#" class="btn btn-dark" id="2" onclick="modalViewOracle(2)" data-toggle="modal" data-target=".bd-example-modal-lg">Ver Imagen</a>
+                                            registro, sus datos no se borrarán del formulario pero debe verificar que todo esté bien escrito.</p>
+                                        <a href="#" class="btn btn-dark" style="background-color: red" id="2" onclick="modalViewOracle(2)" data-toggle="modal" data-target=".bd-example-modal-lg">Ver Imagen</a>
                                     </div>
                                 </div>
                             </div>
@@ -130,7 +129,7 @@
                     </div>
                     <hr>
                     <p>
-                        <button class="btn btn-danger" style="background-color: red" type="button" data-toggle="collapse"
+                        <button class="btn btn-dark"  type="button" data-toggle="collapse"
                             data-target=".multi" aria-expanded="false"
                             aria-controls="multiCollapseExample3 multiCollapseExample4">Directores</button>
                     </p>
@@ -140,11 +139,9 @@
                                 <div class="card w-75" style="width: 18rem;">
                                     <img src="../assets/img/oracle/director.PNG" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <h5 class="card-title">Controles Habilitados</h5>
-                                        <p class="card-text">Deberá llenar todos los campos, en este caso el sistema le habilita los
-                                            controles
-                                            necesarios.</p>
-                                        <a href="#" class="btn btn-dark" id="3" onclick="modalViewOracle('3')" data-toggle="modal"
+                                        <h5 class="card-title">Director</h5>
+                                        <p class="card-text">Trae un director por defecto ya que este es el director de 'Oracle Workforce Development Program' de Oracle University, pero puede modificarse (Caso especial).</p>
+                                        <a href="#" class="btn btn-dark" style="background-color: red" id="3" onclick="modalViewOracle('3')" data-toggle="modal"
                                             data-target=".bd-example-modal-lg">Ver Imagen</a>
                                     </div>
                                 </div>
@@ -155,12 +152,9 @@
                                 <div class="card w-75" style="width: 18rem;">
                                     <img src="../assets/img/oracle/firma.PNG" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <br><hr>
-                                        <h5 class="card-title">Controles Habilitados</h5>
-                                        <p class="card-text">En caso que hayan campos vacíos, el sistema le avisará a la hora de querer
-                                            agregar
-                                            el
-                                            registro.</p><br>
+                                        <hr><br>
+                                        <h5 class="card-title">Damien Carey</h5>
+                                        <p class="card-text">Si el registro tiene en el campo Director el valor 'Damien Carey' el sistema traerá su firma en el certificado. En caso contrario, el certificado no traerá ninguna firma.</p><br> 
                                     </div>
                                 </div>
                             </div>
@@ -168,7 +162,7 @@
                     </div>
                     <hr>
                     <p>
-                        <button class="btn btn-danger" style="background-color: red" type="button" data-toggle="collapse" data-target=".multi-collapse"
+                        <button class="btn btn-dark"  type="button" data-toggle="collapse" data-target=".multi-collapse"
                             aria-expanded="false" aria-controls="multiCollapseExample3 multiCollapseExample4">Agregando Registros</button>
                     </p>
                     <div class="row">
@@ -177,10 +171,10 @@
                                 <div class="card w-75" style="width: 18rem;">
                                     <img src="../assets/img/oracle/registro.PNG" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <h5 class="card-title">Controles Habilitados</h5>
-                                        <p class="card-text">Deberá llenar todos los campos, en este caso el sistema le habilita los controles
-                                            necesarios.</p>
-                                        <a href="#" class="btn btn-dark"id="5" onclick="modalViewOracle('5')" data-toggle="modal" data-target=".bd-example-modal-lg">Ver Imagen</a>
+                                        <h5 class="card-title">Mas de un registro a la tabla</h5>
+                                        <p class="card-text">Puede agregar varios registros siempre y cuando sean todos del mismo tipo.</p>
+                                        <p class="card-text">Al momento que la tabla tenga un registro, el catálogo de los tipos de certificados se bloqueará y se habilitará cuando se limpie la tabla.</p>
+                                        <a href="#" class="btn btn-dark"id="5" style="background-color: red" onclick="modalViewOracle('5')" data-toggle="modal" data-target=".bd-example-modal-lg">Ver Imagen</a>
                                     </div>
                                 </div>
                             </div>
@@ -190,11 +184,10 @@
                                 <div class="card w-75" style="width: 18rem;">
                                     <img src="../assets/img/oracle/generate.PNG" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <h5 class="card-title">Controles Habilitados</h5>
-                                        <p class="card-text">En caso que hayan campos vacíos, el sistema le avisará a la hora de querer agregar
-                                            el
-                                            registro.</p>
-                                        <a href="#" class="btn btn-dark" id="6" onclick="modalViewOracle('6')" data-toggle="modal" data-target=".bd-example-modal-lg">Ver Imagen</a>
+                                        <h5 class="card-title">Generando Certificados</h5>
+                                        <p class="card-text">Generarlos es fácil, solo debe dar click en el botón de 'Generar'.</p>
+                                        <p class="card-text">Solo es cuestión de esperar y cuando todos los certificados hayan sido generados aparecerá una alerta notificando que los certificados se han generado exitosamente.</p>
+                                        <a href="#" class="btn btn-dark" style="background-color: red" id="6" onclick="modalViewOracle('6')" data-toggle="modal" data-target=".bd-example-modal-lg">Ver Imagen</a>
                                     </div>
                                 </div>
                             </div>
@@ -202,8 +195,8 @@
                     </div>
                     <hr>
                     <p>
-                        <button type="button" class="btn btn-danger" style="background-color: red" data-toggle="modal" data-target=".bd-example-modal-lg" id="7" onclick="modalViewOracle(7)">Certificado con Firma</button>
-                        <button type="button" class="btn btn-danger" style="background-color: red" data-toggle="modal" data-target=".bd-example-modal-lg" id="8" onclick="modalViewOracle(8)">Certificado sin Firma</button>
+                        <button type="button" class="btn btn-dark"  data-toggle="modal" data-target=".bd-example-modal-lg" id="7" onclick="modalViewOracle(7)">Certificado con Firma</button>
+                        <button type="button" class="btn btn-dark"  data-toggle="modal" data-target=".bd-example-modal-lg" id="8" onclick="modalViewOracle(8)">Certificado sin Firma</button>
                     </p>
                 </div>
             </div>
