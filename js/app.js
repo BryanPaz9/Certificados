@@ -50,5 +50,11 @@ function modalViewNabenik(id){
         img.src = '../assets/img/nabenik/.PNG';
     }else if(id == '2'){
         img.src = '../assets/img/nabenik/.PNG';
+    }else if(id == '3'){
+        img.src = '../assets/img/nabenik/.PNG';
+    }else if(id == '4'){
+        img.src = '../assets/img/nabenik/.PNG';
+    }else if(id == '5'){
+        img.src = '../assets/img/nabenik/certificate.PNG';
     }
 }

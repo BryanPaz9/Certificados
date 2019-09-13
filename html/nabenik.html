@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Certificados - Nabenik</title> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body,
+            html {
+                height: 58%;
+                width: 100%
+            }
+        
+            .parallax1 {
+                /* The image used */
+                background-image: url('../assets/img/logo1.png');
+        
+                /* Full height */
+                height: 100%;
+        
+                /* Create the parallax scrolling effect */
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size:auto;
+            }
+            
+        </style>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/animate.css">
+        <link rel="icon" type="image/png" href="../assets/img/icons/nabenikon.png" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning" style="position: relative;">
+            <a class="navbar-brand" href="#">Inicio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Certificados
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="./oracle.html">Oracle</a>
+                            <a class="dropdown-item" href="./nabenik.html">Nabenik</a>
+                            <a class="dropdown-item" href="./academik.html">Academik</a>
+                            <div class="dropdown-divider"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class="parallax1">
+            <div style=" t-size:36px">
+                <div style="width: 100%;   display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        margin-top: 0%;">
+                    <div class="jumbotron parallax1">
+                        <h1 class="display-4">Certificados de Nabenik</h1>
+                        <p class="lead">En esta sección encontrarás información para el uso correcto del software y la generación exitosa de sus Certificados.</p>
+                        <hr class="my-4">
+                        <ul>
+                            <li>
+                                Campos obligatorios
+                            </li>
+                            <li>
+                                Agregando registros
+                            </li>
+                            <li>
+                                Resultado Final
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        
+        <div class="parallax1" style="t-size:36px;">
+            <div style="width: 100%; display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 0%;">
+                <br><br>
+                <div class="jumbotron parallax1" style="opacity: inherit;">
+                    <h1 class="display-5">Información</h1>
+                    <p>Click a los botones para desplegar la información</p><hr class="my-4">
+                    <p>
+                        <button class="btn btn-dark" type="button" data-toggle="collapse" data-target=".multi-collapser"
+                            aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Campos Obligatorios</button>
+                    </p>
+                    <div class="row">
+                        <div class="col">
+                            <div class="collapse multi-collapser" id="multiCollapseExample1">
+                                <div class="card w-75" style="width: 18rem;">
+                                    <img src="../assets/img/oracle/controles.PNG" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Controles Habilitados</h5>
+                                        <p class="card-text">Deberá llenar todos los campos, en este formulario el director está bloqueado por defecto pero puede modificarlo habilitando la opción en el CheckBox.</p>
+                                        <a href="#" class="btn btn-warning" id="1" onclick="modalViewOracle(1)" data-toggle="modal" data-target=".bd-example-modal-lg">Ver Imagen</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="collapse multi-collapser" id="multiCollapseExample1">
+                                <div class="card w-75" style="width: 18rem;">
+                                    <img src="../assets/img/oracle/campos.PNG" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Campos vacíos</h5>
+                                        <p class="card-text">En caso que hayan campos vacíos, el sistema le avisará a la hora de querer agregar el
+                                            registro, sus datos no se borrarán del formulario pero debe verificar que todo esté bien escrito.</p>
+                                        <a href="#" class="btn btn-warning" id="2" onclick="modalViewOracle(2)" data-toggle="modal" data-target=".bd-example-modal-lg">Ver Imagen</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <p>
+                        <button class="btn btn-dark"  type="button" data-toggle="collapse" data-target=".multi-collapse"
+                            aria-expanded="false" aria-controls="multiCollapseExample3 multiCollapseExample4">Agregando Registros</button>
+                    </p>
+                    <div class="row">
+                        <div class="col">
+                            <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                <div class="card w-75" style="width: 18rem;">
+                                    <img src="../assets/img/oracle/registro.PNG" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Mas de un registro a la tabla</h5>
+                                        <p class="card-text">Puede agregar varios registros siempre y cuando sean todos del mismo tipo.</p>
+                                        <p class="card-text">Al momento que la tabla tenga un registro, el catálogo de los tipos de certificados se bloqueará y se habilitará cuando se limpie la tabla.</p>
+                                        <a href="#" class="btn btn-warning"id="5" onclick="modalViewOracle('5')" data-toggle="modal" data-target=".bd-example-modal-lg">Ver Imagen</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                <div class="card w-75" style="width: 18rem;">
+                                    <img src="../assets/img/oracle/generate.PNG" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Generando Certificados</h5>
+                                        <p class="card-text">Generarlos es fácil, solo debe dar click en el botón de 'Generar'.</p>
+                                        <p class="card-text">Solo es cuestión de esperar y cuando todos los certificados hayan sido generados aparecerá una alerta notificando que los certificados se han generado exitosamente.</p>
+                                        <a href="#" class="btn btn-warning" id="6" onclick="modalViewOracle('6')" data-toggle="modal" data-target=".bd-example-modal-lg">Ver Imagen</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <p>
+                        <button type="button" class="btn btn-dark"  data-toggle="modal" data-target=".bd-example-modal-lg" id="7" onclick="modalViewNabenik(5)">Certificado Final</button>
+                    </p>
+                </div>
+            </div>
+            <div>
+                <!-- Footer -->
+                <footer class="page-footer parallax1">
+            
+                    <!-- Footer Elements -->
+                    <div class="container">
+            
+                    </div>
+                    <!-- Footer Elements -->
+            
+                    <!-- Copyright -->
+                    <div class="footer-copyright text-center py-3">© 2019 Copyright:
+                        <a href="https://www.nabenik.com"> Nabenik.com</a>
+                    </div>
+                    <!-- Copyright -->
+            
+                </footer>
+                <!-- Footer -->
+            </div>
+        </div>
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <img  id="img1" alt="">
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <script src="../js/app.js"></script>
+        <script src="../js/jquery-3.3.1.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+    </body>    
+</html>    
