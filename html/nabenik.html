@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html style="background-color: #e9ecef">
     <head>
         <title>Certificados - Nabenik</title> 
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,11 +21,11 @@
         </style>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/animate.css">
-        <link rel="icon" type="image/png" href="../assets/img/icons/nabenikon.png" />
+        <link rel="icon" type="image/png" href="../assets/img/icons/master.png" />
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-warning" style="position: relative;">
-            <a class="navbar-brand" href="#">Inicio</a>
+            <a class="navbar-brand" href="#">Nabenik</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -42,18 +42,19 @@
                             Certificados
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="./oracle.html">Oracle</a>
-                            <a class="dropdown-item" href="./nabenik.html">Nabenik</a>
                             <a class="dropdown-item" href="./academik.html">Academik</a>
-                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="./nabenik.html">Nabenik</a>
+                            <a class="dropdown-item" href="./oracle.html">Oracle</a>
                         </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./otros.html">Otros</a>
                     </li>
                 </ul>
             </div>
             <form class="form-inline my-2 my-lg-0">
                 <a class="navbar-brand" href="https://www.nabenik.com">
-                    <img src="../assets/img/icons/nabenikon.png" width="30" height="30" class="d-inline-block align-top" alt="">
-                    Nabenik
+                    <img src="../assets/img/logo1.png" width="" height="45"  class="d-inline-block align-top" alt="">
                 </a>
             </form>
         </nav>
@@ -107,7 +108,7 @@
                                     <div class="card-body">
                                         <h5 class="card-title">Controles Habilitados</h5>
                                         <p class="card-text">Deberá completar todos los campos que se encuentran habilitados para poder agregar un registro.</p>
-                                        <a href="#" class="btn btn-warning" id="1" data-toggle="modal" data-target=".bd-example-modal-lg" onclick="modalViewNabenik(1)" >Ver Imagen</a>
+                                        <a href="#" class="btn btn-warning" id="1" data-toggle="modal" data-target=".bd-example-modal-xl" onclick="modalViewNabenik(1)" >Ver Imagen</a>
                                     </div>
                                 </div>
                             </div>
@@ -120,7 +121,7 @@
                                         <h5 class="card-title">Campos vacíos</h5>
                                         <p class="card-text">En caso que hayan campos vacíos, el sistema le avisará a la hora de querer agregar el
                                             registro.</p>
-                                        <a href="#" class="btn btn-warning" id="2" onclick="modalViewNabenik(2)" data-toggle="modal" data-target=".bd-example-modal-lg">Ver Imagen</a>
+                                        <a href="#" class="btn btn-warning" id="2" onclick="modalViewNabenik(2)" data-toggle="modal" data-target=".bd-example-modal-xl">Ver Imagen</a>
                                     </div>
                                 </div>
                             </div>
@@ -140,7 +141,7 @@
                                         <h5 class="card-title">Mas de un registro a la tabla</h5>
                                         <p class="card-text">Puede agregar varios registros siempre y cuando sean todos del mismo tipo.</p>
                                         <p class="card-text">Al momento que la tabla tenga un registro, el catálogo de los tipos de certificados se bloqueará y se habilitará cuando se limpie la tabla.</p>
-                                        <a href="#" class="btn btn-warning"id="3" onclick="modalViewNabenik('3')" data-toggle="modal" data-target=".bd-example-modal-lg">Ver Imagen</a>
+                                        <a href="#" class="btn btn-warning"id="3" onclick="modalViewNabenik('3')" data-toggle="modal" data-target=".bd-example-modal-xl">Ver Imagen</a>
                                     </div>
                                 </div>
                             </div>
@@ -153,7 +154,7 @@
                                         <h5 class="card-title">Generando Certificados</h5>
                                         <p class="card-text">Generarlos es fácil, solo debe dar click en el botón de 'Generar'.</p>
                                         <p class="card-text">Solo es cuestión de esperar y cuando todos los certificados hayan sido generados aparecerá una alerta notificando que los certificados se han generado exitosamente.</p>
-                                        <a href="#" class="btn btn-warning" id="4" onclick="modalViewNabenik('4')" data-toggle="modal" data-target=".bd-example-modal-lg">Ver Imagen</a>
+                                        <a href="#" class="btn btn-warning" id="4" onclick="modalViewNabenik('4')" data-toggle="modal" data-target=".bd-example-modal-xl">Ver Imagen</a>
                                     </div>
                                 </div>
                             </div>
@@ -161,7 +162,7 @@
                     </div>
                     <hr>
                     <p>
-                        <button type="button" class="btn btn-dark"  data-toggle="modal" data-target=".bd-example-modal-lg" id="5" onclick="modalViewNabenik('5')">Certificado Final</button>
+                        <button type="button" class="btn btn-dark"  data-toggle="modal" data-target=".bd-example-modal-xl" id="5" onclick="modalViewNabenik('5')">Certificado Final</button>
                     </p>
                 </div>
             </div>
@@ -185,14 +186,22 @@
                 <!-- Footer -->
             </div>
         </div>
-        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel"
             aria-hidden="true">
-            <div class="modal-dialog modal-lg">
+            <div class="modal-dialog modal-xl">
                 <div class="modal-content">
                     <img  id="img3" alt="">
                 </div>
             </div>
         </div>
+        <!-- <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <img  id="img33" alt="">
+            </div>
+        </div>
+    </div> -->
         </div>
 
         <script src="../js/app.js"></script>

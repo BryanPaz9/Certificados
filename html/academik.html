@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html style="background-color: #e9ecef">
     <head>
         <title>Certificados - Academik</title> 
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,12 +7,12 @@
             body,
             html {
                 height: 58%;
-                width: 100%
+                width: 100%;
             }
         
             .parallax1 {
                 /* The image used */
-                background-image: url('https://academik.io/img/logo_academik.png');
+                background-image: url('../assets/img/logo1.png');
         
                 /* Full height */
                 height: 100%;
@@ -21,17 +21,17 @@
                 background-attachment: fixed;
                 background-position: center;
                 background-repeat: no-repeat;
-                background-size: contain;
+                background-size: auto;
             }
             
         </style>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/animate.css">
-        <link rel="icon" type="image/png" href="../assets/img/icons/nabenikon.png" />
+        <link rel="icon" type="image/png" href="../assets/img/icons/master  .png" />
     </head>
     <body>
-        <nav class="navbar navbar-dark navbar-expand-lg bg-dark" style="background-color: dimgray;">
-            <a class="navbar-brand" href="#" style="color: white; font-family: inherit">Academik</a>
+        <nav class="navbar navbar-light navbar-expand-lg bg-warning"">
+            <a class="navbar-brand" href="#" style=" font-family: inherit" >Academik</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -47,17 +47,20 @@
                             Certificados
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="oracle.html">Oracle</a>
-                            <a class="dropdown-item" href="nabenik.html">Nabenik</a>
-                            <a class="dropdown-item" href="academik.html">Academik</a>
+                                <a class="dropdown-item" href="./academik.html">Academik</a>
+                                <a class="dropdown-item" href="./nabenik.html">Nabenik</a>
+                                <a class="dropdown-item" href="./oracle.html">Oracle</a>
                         </div>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="./otros.html">Otros</a>
                     </li>
                 </ul>
             </div>
             <form class="form-inline my-2 my-lg-0">
                 <a class="navbar-brand" href="https://www.nabenik.com">
-                    <img src="../assets/img/icons/nabenikon.png" width="30" height="30" class="d-inline-block align-top" alt="">
-                    Nabenik
+                    <img src="../assets/img/logo1.png" width="" height="45"  class="d-inline-block align-top" alt="">
+                    
                 </a>
             </form>
         </nav>
@@ -94,12 +97,13 @@
                 margin-left: auto;
                 margin-right: auto;
                 margin-top: 0%;">
-                <div class="jumbotron parallax1" style="opacity: inherit;">
+                <div class="jumbotron parallax1" style="opacity: inherit;" style="background-color: #e9ecef">
                     <h1 class="display-4">Información</h1>
                     <hr class="my-4">
                     <p>Utilizado para generar Certificados de Oracle, Academik y Nabenik</p>
                     <p>
-                        <button class="btn btn-warning" type="button" data-toggle="collapse" data-target=".multi-collapser"
+                        <button class="btn btn-dark
+                        " type="button" data-toggle="collapse" data-target=".multi-collapser"
                             aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Campos Obligatorios</button>
                     </p>
                     <div class="row">
@@ -111,7 +115,7 @@
                                         <h5 class="card-title">Controles Habilitados</h5>
                                         <p class="card-text">Deberá llenar todos los campos, en este caso el sistema le habilita los controles
                                             necesarios.</p>
-                                        <a href="#" class="btn btn-secondary" id="1" onclick="modalView(1)" data-toggle="modal" data-target=".bd-modal-lg">Ver Imagen</a>
+                                        <a href="#" class="btn btn-warning" id="1" onclick="modalView(1)" data-toggle="modal" data-target=".bd-modal-xl">Ver Imagen</a>
                                     </div>
                                 </div>
                             </div>
@@ -121,10 +125,10 @@
                                 <div class="card w-75" style="width: 18rem;">
                                     <img src="../assets/img/academik/campos vacios.PNG" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <h5 class="card-title">Controles Habilitados</h5>
+                                        <h5 class="card-title">Campos Obligatorios</h5>
                                         <p class="card-text">En caso que hayan campos vacíos, el sistema le avisará a la hora de querer agregar el
                                             registro.</p>
-                                        <a href="#" class="btn btn-secondary" id="2" onclick="modalView(2)" data-toggle="modal" data-target=".bd-modal-lg">Ver Imagen</a>
+                                        <a href="#" class="btn btn-warning" id="2" onclick="modalView(2)" data-toggle="modal" data-target=".bd-modal-xl">Ver Imagen</a>
                                     </div>
                                 </div>
                             </div>
@@ -132,7 +136,8 @@
                     </div>
                     <hr>
                     <p>
-                        <button class="btn btn-warning" type="button" data-toggle="collapse" data-target=".multi-collapse"
+                        <button class="btn btn-dark
+                        " type="button" data-toggle="collapse" data-target=".multi-collapse"
                             aria-expanded="false" aria-controls="multiCollapseExample3 multiCollapseExample4">Agregando Registros</button>
                     </p>
                     <div class="row">
@@ -144,7 +149,7 @@
                                         <h5 class="card-title">Mas de un registro a la tabla</h5>
                                         <p class="card-text">Puede agregar varios registros siempre y cuando sean todos del mismo tipo.</p>
                                         <p class="card-text">Al momento que la tabla tenga un registro, el catálogo de los tipos de certificados se bloqueará y se habilitará cuando se limpie la tabla.</p>
-                                        <a href="#" class="btn btn-secondary"id="3" onclick="modalView('3')" data-toggle="modal" data-target=".bd-modal-lg">Ver Imagen</a>
+                                        <a href="#" class="btn btn-warning"id="3" onclick="modalView(3)" data-toggle="modal" data-target=".bd-modal-xl">Ver Imagen</a>
                                     </div>
                                 </div>
                             </div>
@@ -157,7 +162,7 @@
                                         <h5 class="card-title">Generando Certificados</h5>
                                         <p class="card-text">Generarlos es fácil, solo debe dar click en el botón de 'Generar'.</p>
                                         <p class="card-text">Solo es cuestión de esperar y cuando todos los certificados hayan sido generados aparecerá una alerta notificando que los certificados se han generado exitosamente.</p>
-                                        <a href="#" class="btn btn-secondary" id="4" onclick="modalView('4')" data-toggle="modal" data-target=".bd-modal-lg">Ver Imagen</a>
+                                        <a href="#" class="btn btn-warning" id="4" onclick="modalView(4)" data-toggle="modal" data-target=".bd-modal-xl">Ver Imagen</a>
                                     </div>
                                 </div>
                             </div>
@@ -165,7 +170,7 @@
                     </div>
                     <hr>
                     <p>
-                        <button type="button" class="btn btn-warning" data-toggle="modal" data-target=".bd-modal-lg" id="5" onclick="modalView(5)">Resultado Final</button>
+                        <button type="button" class="btn btn-dark" data-toggle="modal" data-target=".bd-modal-xl" id="5" onclick="modalView(5)">Resultado Final</button>
                     </p>
                 </div>
             </div>
@@ -180,7 +185,7 @@
                     <!-- Footer Elements -->
             
                     <!-- Copyright -->
-                    <div class="footer-copyright text-center py-3">© 2019 Copyright:
+                    <div class="footer-copyright text-center py-3" >© 2019 Copyright:
                         <a href="https://www.nabenik.com"> Nabenik.com</a>
                     </div>
                     <!-- Copyright -->
@@ -188,9 +193,9 @@
                 </footer>
                 <!-- Footer -->
             </div>
-            <div class="modal fade bd-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+            <div class="modal fade bd-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel"
                 aria-hidden="true">
-                <div class="modal-dialog modal-lg">
+                <div class="modal-dialog modal-xl">
                     <div class="modal-content">
                         <img id="img1" alt="">
                     </div>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html style="background-color: #e9ecef">
     <head>
         <title>Certificados - Oracle</title> 
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,7 +12,7 @@
         
             .parallax1 {
                 /* The image used */
-                background-image: url('../assets/img/oracle-logo.png');
+                background-image: url('../assets/img/logo1.png');
         
                 /* Full height */
                 height: 100%;
@@ -21,16 +21,16 @@
                 background-attachment: fixed;
                 background-position: center;
                 background-repeat: no-repeat;
-                background-size: contain;
+                background-size: auto;
             }
             
         </style>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/animate.css">
-        <link rel="icon" type="image/png" href="../assets/img/icons/nabenikon.png" />
+        <link rel="icon" type="image/png" href="../assets/img/icons/master.png" />
     </head>
     <body>
-        <nav class="navbar navbar-light navbar-expand-lg" style="background-color: red;">
+        <nav class="navbar navbar-light navbar-expand-lg bg-warning"  >
             <a class="navbar-brand" href="#" style=" font-family: inherit">Oracle</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,17 +47,19 @@
                             Certificados
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="oracle.html">Oracle</a>
-                            <a class="dropdown-item" href="nabenik.html">Nabenik</a>
-                            <a class="dropdown-item" href="academik.html">Academik</a>
+                                <a class="dropdown-item" href="./academik.html">Academik</a>
+                                <a class="dropdown-item" href="./nabenik.html">Nabenik</a>
+                                <a class="dropdown-item" href="./oracle.html">Oracle</a>
                         </div>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="./otros.html">Otros</a>
                     </li>
                 </ul>
             </div>
             <form class="form-inline my-2 my-lg-0">
                 <a class="navbar-brand" href="https://www.nabenik.com">
-                    <img src="../assets/img/icons/nabenikon.png" width="30" height="30" class="d-inline-block align-top" alt="">
-                    Nabenik
+                    <img src="../assets/img/logo1.png" width="" height="45"  class="d-inline-block align-top" alt="">
                 </a>
             </form>
         </nav>
@@ -114,7 +116,7 @@
                                     <div class="card-body">
                                         <h5 class="card-title">Controles Habilitados</h5>
                                         <p class="card-text">Deberá llenar todos los campos, en este formulario el director está bloqueado por defecto pero puede modificarlo habilitando la opción en el CheckBox.</p>
-                                        <a href="#" class="btn btn-dark" style="background-color: red" id="1" onclick="modalViewOracle(1)" data-toggle="modal" data-target=".bd-example-modal-lg">Ver Imagen</a>
+                                        <a href="#" class="btn btn-warning"  id="1" onclick="modalViewOracle(1)" data-toggle="modal" data-target=".bd-example-modal-xl">Ver Imagen</a>
                                     </div>
                                 </div>
                             </div>
@@ -127,7 +129,7 @@
                                         <h5 class="card-title">Campos vacíos</h5>
                                         <p class="card-text">En caso que hayan campos vacíos, el sistema le avisará a la hora de querer agregar el
                                             registro, sus datos no se borrarán del formulario pero debe verificar que todo esté bien escrito.</p>
-                                        <a href="#" class="btn btn-dark" style="background-color: red" id="2" onclick="modalViewOracle(2)" data-toggle="modal" data-target=".bd-example-modal-lg">Ver Imagen</a>
+                                        <a href="#" class="btn btn-warning"  id="2" onclick="modalViewOracle(2)" data-toggle="modal" data-target=".bd-example-modal-xl">Ver Imagen</a>
                                     </div>
                                 </div>
                             </div>
@@ -147,8 +149,8 @@
                                     <div class="card-body">
                                         <h5 class="card-title">Director</h5>
                                         <p class="card-text">Trae un director por defecto ya que este es el director de 'Oracle Workforce Development Program' de Oracle University, pero puede modificarse (Caso especial).</p>
-                                        <a href="#" class="btn btn-dark" style="background-color: red" id="3" onclick="modalViewOracle('3')" data-toggle="modal"
-                                            data-target=".bd-example-modal-lg">Ver Imagen</a>
+                                        <a href="#" class="btn btn-warning"  id="3" onclick="modalViewOracle(3)" data-toggle="modal"
+                                            data-target=".bd-example-modal-xl">Ver Imagen</a>
                                     </div>
                                 </div>
                             </div>
@@ -180,7 +182,7 @@
                                         <h5 class="card-title">Mas de un registro a la tabla</h5>
                                         <p class="card-text">Puede agregar varios registros siempre y cuando sean todos del mismo tipo.</p>
                                         <p class="card-text">Al momento que la tabla tenga un registro, el catálogo de los tipos de certificados se bloqueará y se habilitará cuando se limpie la tabla.</p>
-                                        <a href="#" class="btn btn-dark"id="5" style="background-color: red" onclick="modalViewOracle('5')" data-toggle="modal" data-target=".bd-example-modal-lg">Ver Imagen</a>
+                                        <a href="#" class="btn btn-warning"  id="5"  onclick="modalViewOracle(5)" data-toggle="modal" data-target=".bd-example-modal-xl">Ver Imagen</a>
                                     </div>
                                 </div>
                             </div>
@@ -193,7 +195,7 @@
                                         <h5 class="card-title">Generando Certificados</h5>
                                         <p class="card-text">Generarlos es fácil, solo debe dar click en el botón de 'Generar'.</p>
                                         <p class="card-text">Solo es cuestión de esperar y cuando todos los certificados hayan sido generados aparecerá una alerta notificando que los certificados se han generado exitosamente.</p>
-                                        <a href="#" class="btn btn-dark" style="background-color: red" id="6" onclick="modalViewOracle('6')" data-toggle="modal" data-target=".bd-example-modal-lg">Ver Imagen</a>
+                                        <a href="#" class="btn btn-warning"  id="6" onclick="modalViewOracle(6)" data-toggle="modal" data-target=".bd-example-modal-xl">Ver Imagen</a>
                                     </div>
                                 </div>
                             </div>
@@ -201,8 +203,8 @@
                     </div>
                     <hr>
                     <p>
-                        <button type="button" class="btn btn-dark"  data-toggle="modal" data-target=".bd-example-modal-lg" id="7" onclick="modalViewOracle(7)">Certificado con Firma</button>
-                        <button type="button" class="btn btn-dark"  data-toggle="modal" data-target=".bd-example-modal-lg" id="8" onclick="modalViewOracle(8)">Certificado sin Firma</button>
+                        <button type="button" class="btn btn-dark"  data-toggle="modal" data-target=".bd-example-modal-xl" id="7" onclick="modalViewOracle(7)">Certificado con Firma</button>
+                        <button type="button" class="btn btn-dark"  data-toggle="modal" data-target=".bd-example-modal-xl" id="8" onclick="modalViewOracle(8)">Certificado sin Firma</button>
                     </p>
                 </div>
             </div>
@@ -226,9 +228,9 @@
                 <!-- Footer -->
             </div>
         </div>
-        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel"
             aria-hidden="true">
-            <div class="modal-dialog modal-lg">
+            <div class="modal-dialog modal-xl">
                 <div class="modal-content">
                     <img  id="img2" alt="">
                 </div>
