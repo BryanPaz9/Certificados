@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html style="background-color: #e9ecef">
     <head>
-        <title>Certificados - Otros</title> 
+        <title>Certificados - Acciones</title> 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
             body,
@@ -83,6 +83,9 @@
                                 ¿En qué ruta se encuentran los certificados?
                             </li>
                             <li>
+                                Limpiar registros
+                            </li>
+                            <li>
                                 Manual de usuario
                             </li>
                         </ul>
@@ -90,16 +93,14 @@
                 </div>
             </div>
         </div>
-        <br>
         
         <div class="parallax1" style="t-size:36px;">
             <div style="width: 100%; display: block;
                 margin-left: auto;
                 margin-right: auto;
                 margin-top: 0%;">
-                <br><br>
                 <div class="jumbotron parallax1" style="opacity: inherit;">
-                    <h1 class="display-5">Información</h1>
+                    <h1 class="display-4">Información</h1>
                     <p>Click a los botones para desplegar la información</p><hr class="my-4">
                     <p>
                         <button class="btn btn-dark" type="button" data-toggle="collapse" data-target=".multi-collapser"
@@ -141,10 +142,10 @@
                         <div class="col">
                             <div class="collapse multi" id="multiCollapseExample1">
                                 <div class="card w-75" style="width: 18rem;">
-                                    <img src="../assets/img/oracle/director.PNG" class="card-img-top" alt="...">
+                                    <img src="../assets/img/otros/certs.PNG" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <h5 class="card-title">Director</h5>
-                                        <p class="card-text">Trae un director por defecto ya que este es el director de 'Oracle Workforce Development Program' de Oracle University, pero puede modificarse (Caso especial).</p>
+                                        <h5 class="card-title">Botón que muestra los certificados</h5>
+                                        <p class="card-text">Este botón siempre esta habilitado y al darle click abrirá el explorador de archivos.</p>
                                         <a href="#" class="btn btn-warning"  id="3" onclick="modalViewOtros(3)" data-toggle="modal"
                                             data-target=".bd-example-modal-xl">Ver Imagen</a>
                                     </div>
@@ -154,11 +155,12 @@
                         <div class="col">
                             <div class="collapse multi" id="multiCollapseExample1">
                                 <div class="card w-75" style="width: 18rem;">
-                                    <img src="../assets/img/oracle/firma.PNG" class="card-img-top" alt="...">
+                                    <img src="../assets/img/otros/ruta.PNG" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <hr><br>
-                                        <h5 class="card-title">Damien Carey</h5>
-                                        <p class="card-text">Si el registro tiene en el campo Director el valor 'Damien Carey' el sistema traerá su firma en el certificado. En caso contrario, el certificado no traerá ninguna firma.</p><br> 
+                                        <h5 class="card-title">Ruta específicad</h5>
+                                        <p class="card-text">Abrira la ruta donde se encuentran las tres carpetas con los certificados generados.</p>
+                                        <a href="#" class="btn btn-warning"  id="3" onclick="modalViewOtros(4)" data-toggle="modal"
+                                            data-target=".bd-example-modal-xl">Ver Imagen</a>
                                     </div>
                                 </div>
                             </div>
@@ -167,17 +169,17 @@
                     <hr>
                     <p>
                         <button class="btn btn-dark"  type="button" data-toggle="collapse" data-target=".multi-collapse"
-                            aria-expanded="false" aria-controls="multiCollapseExample3 multiCollapseExample4">Manual de usuario</button>
+                            aria-expanded="false" aria-controls="multiCollapseExample3 multiCollapseExample4">Limpiar tabla</button>
                     </p>
                     <div class="row">
                         <div class="col">
                             <div class="collapse multi-collapse" id="multiCollapseExample1">
                                 <div class="card w-75" style="width: 18rem;">
-                                    <img src="../assets/img/oracle/registro.PNG" class="card-img-top" alt="...">
+                                    <img src="../assets/img/otros/limpiar.PNG" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <h5 class="card-title">Mas de un registro a la tabla</h5>
-                                        <p class="card-text">Puede agregar varios registros siempre y cuando sean todos del mismo tipo.</p>
-                                        <p class="card-text">Al momento que la tabla tenga un registro, el catálogo de los tipos de certificados se bloqueará y se habilitará cuando se limpie la tabla.</p>
+                                        <h5 class="card-title">Limpiar tabla</h5>
+                                        <p class="card-text">Esta opción estará habilitada despues de agregar un registro a la tabla.</p>
+                                        <p class="card-text">Al darle click pedirá una verificación por parte del usuario</p>
                                         <a href="#" class="btn btn-warning"  id="5"  onclick="modalViewOtros(5)" data-toggle="modal" data-target=".bd-example-modal-xl">Ver Imagen</a>
                                     </div>
                                 </div>
@@ -186,11 +188,11 @@
                         <div class="col">
                             <div class="collapse multi-collapse" id="multiCollapseExample1">
                                 <div class="card w-75" style="width: 18rem;">
-                                    <img src="../assets/img/oracle/generate.PNG" class="card-img-top" alt="...">
+                                    <img src="../assets/img/otros/clean.PNG" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <h5 class="card-title">Generando Certificados</h5>
-                                        <p class="card-text">Generarlos es fácil, solo debe dar click en el botón de 'Generar'.</p>
-                                        <p class="card-text">Solo es cuestión de esperar y cuando todos los certificados hayan sido generados aparecerá una alerta notificando que los certificados se han generado exitosamente.</p>
+                                        <h5 class="card-title">Tabla limpia</h5>
+                                        <p class="card-text">Al aceptar la verificación de limpiar tabla, todos los registros serán eliminados.</p>
+                                        <p class="card-text">Y la opción de seleccionar tipo de diploma será habilitada automáticamente.</p>
                                         <a href="#" class="btn btn-warning"  id="6" onclick="modalViewOtros(6)" data-toggle="modal" data-target=".bd-example-modal-xl">Ver Imagen</a>
                                     </div>
                                 </div>
@@ -199,9 +201,25 @@
                     </div>
                     <hr>
                     <p>
-                        <button type="button" class="btn btn-dark"  data-toggle="modal" data-target=".bd-example-modal-xl" id="7" onclick="modalViewOtros(7)">Certificado con Firma</button>
-                        <button type="button" class="btn btn-dark"  data-toggle="modal" data-target=".bd-example-modal-xl" id="8" onclick="modalViewOtros(8)">Certificado sin Firma</button>
+                        <button class="btn btn-dark"  type="button" data-toggle="collapse" data-target=".multi-c"
+                            aria-expanded="false" aria-controls="multiCollapseExample5 multiCollapseExample6">Manual de usuario</button>
                     </p>
+                    <div class="row">
+                        <div class="col">
+                            <div class="collapse multi-c" id="multiCollapseExample1">
+                                <div class="card w-50" style="width: 18rem;">
+                                    <img src="../assets/img/otros/info.PNG" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Botón Información</h5>
+                                        <p class="card-text">Al hacer click en el botón se redirigirá a la sección de inicio de esta página HTML.</p>
+                                        <p class="card-text">En donde se encontrará la información de como usar el software para certificados de manera correcta-.</p>
+                                        <a href="#" class="btn btn-warning"  id="5"  onclick="modalViewOtros(7)" data-toggle="modal" data-target=".bd-example-modal-xl">Ver Imagen</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
                 </div>
             </div>
             <div>
