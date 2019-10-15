@@ -3,7 +3,7 @@ var id;
 var img = document.getElementById('img1');
 var img2 = document.getElementById('img2');
 var img3 = document.getElementById('img3');
-// var img33 = document.getElementById('img33');
+var img4 = document.getElementById('img4');
 
 function modalView(id) {
 
@@ -34,23 +34,6 @@ function modalView(id) {
 }
 
 function modalViewOracle(id){
-    // if (id == '1'){
-    //     img2.src= '../assets/img/oracle/controles.PNG';
-    // }else if(id == '2'){
-    //     img2.src = '../assets/img/oracle/campos.PNG';
-    // }else if(id =='3'){
-    //     img2.src = '../assets/img/oracle/director.PNG';
-    // }else if(id == '4'){
-    //     img2.src = '../assets/img/oracle/firma.PNG';
-    // }else if(id == '5'){
-    //     img2.src = '../assets/img/oracle/registro.PNG';
-    // }else if(id == '6'){
-    //     img2.src = '../assets/img/oracle/generate.PNG';
-    // }else if( id == '7'){
-    //     img2.src = '../assets/img/oracle/certificate.PNG'
-    // }else if(id == '8'){
-    //     img2.src = '../assets/img/oracle/without.PNG';
-    // }
     switch (id) {
         case 1:
             img2.src= '../assets/img/oracle/controles.PNG';
@@ -94,5 +77,31 @@ function modalViewNabenik(id){
         img3.src = '../assets/img/nabenik/generated.PNG';
     }else if(id == '5'){
         img3.src = '../assets/img/nabenik/certificate.PNG';
+    }
+}
+function modalViewOtros(id){
+    switch (id) {
+        case 1:
+            img4.src='../assets/img/otros/eliminar.PNG';
+            break;
+        case 2:
+            img4.src='../assets/img/otros/delete.PNG';
+            break;
+        case 3:
+
+            break;
+        case 4:
+
+            break;
+        case 5:
+
+            break;
+        case 6:
+
+            break;
+        
+        default:
+            console.log("Error");
+            break;
     }
 }
