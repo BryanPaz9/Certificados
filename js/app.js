@@ -67,16 +67,26 @@ function modalViewOracle(id){
 }
 
 function modalViewNabenik(id){
-    if (id == '1'){
+    switch (id) {
+        case 1:
         img3.src= '../assets/img/nabenik/controls.PNG';
-    }else if(id == '2'){
-        img3.src = '../assets/img/nabenik/obligatorio.PNG';
-    }else if(id =='3'){
-        img3.src = '../assets/img/nabenik/registro.PNG';
-    }else if(id == '4'){
-        img3.src = '../assets/img/nabenik/generated.PNG';
-    }else if(id == '5'){
-        img3.src = '../assets/img/nabenik/certificate.PNG';
+            break;
+
+        case 2:
+            img3.src= '../assets/img/nabenik/obligatorio.PNG';
+            break;
+        case 3:
+            img3.src= '../assets/img/nabenik/registro.PNG';
+            break;
+        case 4:
+            img3.src= '../assets/img/nabenik/generated.PNG';
+            break;
+        case 5:
+        img3.src= '../assets/img/nabenik/certificate.PNG';
+            break;
+        default:
+            console.log("ERROR");
+            break;
     }
 }
 function modalViewOtros(id){
