@@ -137,31 +137,3 @@ function modalViewOtros(id){
             break;
     }
 }
-
-function modalHome(id){
-    switch(id){
-        case 1:
-            img5.src ='./assets/img/home/json0.PNG';
-            break;
-        case 2:
-            img6.src = './assets/img/home/pais0.PNG';
-            break;
-        case 3:
-            img6.src = './assets/img/home/ciudad0.PNG';    
-            break;
-        case 4:
-            img5.src = './assets/img/home/json.PNG';
-            break;
-        case 5:
-            img6.src = './assets/img/home/pais0.PNG';
-            break;
-        case 6:
-            img6.src = './assets/img/home/ciudad1.PNG';
-            break;
-
-        default:
-            console.log("ERROR");
-            break;
-    }
-
-}
