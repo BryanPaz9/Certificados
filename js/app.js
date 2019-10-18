@@ -97,19 +97,19 @@ function modalViewOtros(id){
             img4.src='../assets/img/otros/eliminar.png';
             break;
         case 2:
-            img4.src='../assets/img/otros/delete.png';
+            img4.src='../assets/img/otros/delete.PNG';
             break;
         case 3:
             img4.src='../assets/img/otros/certs.png';
             break;
         case 4:
-            img4.src='../assets/img/otros/ruta.png';
+            img4.src='../assets/img/otros/ruta.PNG';
             break;
         case 5:
-            img4.src='../assets/img/otros/limpiar.png';
+            img4.src='../assets/img/otros/limpiar.PNG';
             break;
         case 6:
-            img4.src='../assets/img/otros/clean.png';
+            img4.src='../assets/img/otros/clean.PNG';
             break;
         case 7:
             img4.src = '../assets/img/otros/info.png';
