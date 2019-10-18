@@ -94,43 +94,43 @@ function modalViewNabenik(id){
 function modalViewOtros(id){
     switch (id) {
         case 1:
-            img4.src='../assets/img/otros/eliminar.PNG';
+            img4.src='../assets/img/otros/eliminar.png';
             break;
         case 2:
-            img4.src='../assets/img/otros/delete.PNG';
+            img4.src='../assets/img/otros/delete.png';
             break;
         case 3:
-            img4.src='../assets/img/otros/certs.PNG';
+            img4.src='../assets/img/otros/certs.png';
             break;
         case 4:
-            img4.src='../assets/img/otros/ruta.PNG';
+            img4.src='../assets/img/otros/ruta.png';
             break;
         case 5:
-            img4.src='../assets/img/otros/limpiar.PNG';
+            img4.src='../assets/img/otros/limpiar.png';
             break;
         case 6:
-            img4.src='../assets/img/otros/clean.PNG';
+            img4.src='../assets/img/otros/clean.png';
             break;
         case 7:
-            img4.src = '../assets/img/otros/info.PNG';
+            img4.src = '../assets/img/otros/info.png';
             break;
         case 8:
-            img5.src = '../assets/img/home/json0.PNG';
+            img5.src = '../assets/img/home/json0.png';
             break;
         case 9:
-            img5.src = '../assets/img/home/json.PNG';
+            img5.src = '../assets/img/home/json.png';
             break;
         case 10:
-            img4.src = '../assets/img/home/pais0.PNG';
+            img4.src = '../assets/img/home/pais0.png';
             break;
         case 11:
-            img4.src = '../assets/img/home/ciudad0.PNG';
+            img4.src = '../assets/img/home/ciudad0.png';
             break; 
         case 12:
-            img4.src = '../assets/img/home/pais1.PNG';
+            img4.src = '../assets/img/home/pais1.png';
             break;
         case 13:
-            img4.src = '../assets/img/home/ciudad1.PNG';
+            img4.src = '../assets/img/home/ciudad1.png';
             break;    
         default:
             console.log("Error");
