@@ -115,22 +115,22 @@ function modalViewOtros(id){
             img4.src = '../assets/img/otros/info.png';
             break;
         case 8:
-            img5.src = '../assets/img/home/json0.png';
+            img5.src = '../assets/img/home/json0.PNG';
             break;
         case 9:
-            img5.src = '../assets/img/home/json.png';
+            img5.src = '../assets/img/home/json.PNG';
             break;
         case 10:
-            img4.src = '../assets/img/home/pais0.png';
+            img4.src = '../assets/img/home/pais0.PNG';
             break;
         case 11:
-            img4.src = '../assets/img/home/ciudad0.png';
+            img4.src = '../assets/img/home/ciudad0.PNG';
             break; 
         case 12:
-            img4.src = '../assets/img/home/pais1.png';
+            img4.src = '../assets/img/home/pais1.PNG';
             break;
         case 13:
-            img4.src = '../assets/img/home/ciudad1.png';
+            img4.src = '../assets/img/home/ciudad1.PNG';
             break;    
         default:
             console.log("Error");
