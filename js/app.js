@@ -4,6 +4,8 @@ var img = document.getElementById('img1');
 var img2 = document.getElementById('img2');
 var img3 = document.getElementById('img3');
 var img4 = document.getElementById('img4');
+var img5 = document.getElementById('img5');
+var img6 = document.getElementById('img6');
 
 function modalView(id) {
 
@@ -110,10 +112,56 @@ function modalViewOtros(id){
             img4.src='../assets/img/otros/clean.PNG';
             break;
         case 7:
-            img4.src='../assets/img/otros/info.PNG';
+            img4.src = '../assets/img/otros/info.PNG';
             break;
+        case 8:
+            img5.src = '../assets/img/home/json0.PNG';
+            break;
+        case 9:
+            img5.src = '../assets/img/home/json.PNG';
+            break;
+        case 10:
+            img4.src = '../assets/img/home/pais0.PNG';
+            break;
+        case 11:
+            img4.src = '../assets/img/home/ciudad0.PNG';
+            break; 
+        case 12:
+            img4.src = '../assets/img/home/pais1.PNG';
+            break;
+        case 13:
+            img4.src = '../assets/img/home/ciudad1.PNG';
+            break;    
         default:
             console.log("Error");
             break;
     }
+}
+
+function modalHome(id){
+    switch(id){
+        case 1:
+            img5.src ='./assets/img/home/json0.PNG';
+            break;
+        case 2:
+            img6.src = './assets/img/home/pais0.PNG';
+            break;
+        case 3:
+            img6.src = './assets/img/home/ciudad0.PNG';    
+            break;
+        case 4:
+            img5.src = './assets/img/home/json.PNG';
+            break;
+        case 5:
+            img6.src = './assets/img/home/pais0.PNG';
+            break;
+        case 6:
+            img6.src = './assets/img/home/ciudad1.PNG';
+            break;
+
+        default:
+            console.log("ERROR");
+            break;
+    }
+
 }

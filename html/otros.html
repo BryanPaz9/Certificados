@@ -179,7 +179,7 @@
                                     <div class="card-body">
                                         <h5 class="card-title">Limpiar tabla</h5>
                                         <p class="card-text">Esta opción estará habilitada despues de agregar un registro a la tabla.</p>
-                                        <p class="card-text">Al darle click pedirá una verificación por parte del usuario</p>
+                                        <p class="card-text">Al darle click pedirá una verificación por parte del usuario.</p>
                                         <a href="#" class="btn btn-warning"  id="5"  onclick="modalViewOtros(5)" data-toggle="modal" data-target=".bd-example-modal-xl">Ver Imagen</a>
                                     </div>
                                 </div>
@@ -212,14 +212,42 @@
                                     <div class="card-body">
                                         <h5 class="card-title">Botón Información</h5>
                                         <p class="card-text">Al hacer click en el botón se redirigirá a la sección de inicio de esta página HTML.</p>
-                                        <p class="card-text">En donde se encontrará la información de como usar el software para certificados de manera correcta-.</p>
+                                        <p class="card-text">En donde se encontrará la información de como usar el software para certificados de manera correcta.</p>
                                         <a href="#" class="btn btn-warning"  id="5"  onclick="modalViewOtros(7)" data-toggle="modal" data-target=".bd-example-modal-xl">Ver Imagen</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                   
+                    <hr>
+                    <p>
+                        <button class="btn btn-dark" type="button" data-toggle="collapse" data-target=".mult"
+                            aria-expanded="false" aria-controls="multiCollapseExample3 multiCollapseExample4">Países y ciudades</button>
+                    </p>
+                    <div class="row">
+                        <div class="col">
+                            <div class="collapse mult" id="multiCollapseExample1">
+                                <div class="card w-50" style="width: 18rem;">
+                                    <img src="../assets/img/home/file.PNG" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">¿Y si necesito seleccionar nuevos paises y ciudades?</h5>
+                                        <p class="card-text">Puedes modificar el archivo "countries.json" para poder agregar o eliminar paises y ciudades.</p>
+                                        <p class="card-text">Es necesario guardar y reiniciar la aplicación para poder visualizar los cambios en él.</p>
+                                        
+                                                <button type="button" class="btn btn-warning"  data-toggle="modal" data-target=".bd-example-modal-lg" id="7" onclick="modalViewOtros(8)">Código JSON sin editar</button>
+                                                <button type="button" class="btn btn-warning"  data-toggle="modal" data-target=".bd-example-modal-xl" id="8" onclick="modalViewOtros(10)">Paises</button>
+                                                <button type="button" class="btn btn-warning"  data-toggle="modal" data-target=".bd-example-modal-xl" id="8" onclick="modalViewOtros(11)">Ciuddes</button>
+                                        </p>    
+                                        <p>
+                                            <button type="button" class="btn btn-dark"  data-toggle="modal" data-target=".bd-example-modal-lg" id="7" onclick="modalViewOtros(9)">Código JSON editado</button>
+                                            <button type="button" class="btn btn-dark"  data-toggle="modal" data-target=".bd-example-modal-xl" id="8" onclick="modalViewOtros(12)">Paises editado</button>
+                                            <button type="button" class="btn btn-dark"  data-toggle="modal" data-target=".bd-example-modal-xl" id="8" onclick="modalViewOtros(13)">Ciudades editado</button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div>
@@ -247,6 +275,14 @@
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
                     <img  id="img4" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <img id="img5" alt="">
                 </div>
             </div>
         </div>
